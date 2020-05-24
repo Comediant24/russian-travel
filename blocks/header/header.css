@@ -1,0 +1,48 @@
+
+.header__container {
+  width: 90%;
+  margin: auto;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.header__langs {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.header__lang {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.header__lang:last-of-type {
+  margin-right: 0;
+}
+
+
+.header__lang_underline {
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width:425px) {
+  
+  .header__container {
+    height: 42px;
+    padding-top: 16px;
+  }
+
+  .header__logo {
+    max-height: 100%;
+  }  
+
+  .header__langs {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

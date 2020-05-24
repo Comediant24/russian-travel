@@ -1,0 +1,33 @@
+.footer {
+  width: 90%;
+  margin: 92px auto 24px;
+}
+.footer__link-conteiner {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link-item {
+  list-style-type: none;
+}
+
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__author {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  margin: 0;
+}
