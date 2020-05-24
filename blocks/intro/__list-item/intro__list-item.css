@@ -1,0 +1,5 @@
+@import url(./_numbers/intro__list-item_numbers.css);
+
+.intro__list-item {
+  list-style-type: none;
+}

@@ -1,0 +1,14 @@
+.cover__container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100%;
+  position: relative;
+}
+
+@media screen and (max-width:1024px) {
+  .cover__container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.footer__link-conteiner {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:525px) {
+  .footer__link-conteiner {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}
