@@ -6,19 +6,9 @@
   color: white;
 }
 
-.footer__author::after {
-  content: "Юрий Байрамуков";
-}
-
 @media screen and (max-width:750px) {
   .footer__author {
     font-size: 12px;
-  }
-}
-
-@media screen and (max-width:650px) {
-  .footer__author::after {
-    content: "Юрий Б";
   }
 }
 
@@ -26,8 +16,5 @@
   .footer__author {
     font-size: 14px;
     line-height: 1;
-  }
-  .footer__author::after {
-    content: "Юрий Байрамуков";
   }
 }

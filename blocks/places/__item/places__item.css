@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .places__item {
     margin-bottom: 48px;
     grid-template-columns: 1fr;
