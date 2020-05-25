@@ -1,12 +1,13 @@
+@import url(./__link/header__link.css);
+@import url(./__logo/header__logo.css);
 @import url(./__langs/header__langs.css);
 @import url(./__lang/header__lang.css);
 @import url(./__lang/_underline/header__lang_underline.css);
-@import url(./__logo/header__logo.css);
+
 
 .header {
   width: 90%;
   margin: auto;
-  height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +16,6 @@
 
 @media screen and (max-width:425px) {
   .header {
-    height: 42px;
     padding-top: 16px;
   }
 }

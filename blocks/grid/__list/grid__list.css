@@ -6,21 +6,13 @@
   grid-gap: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px){
   .grid__list {
     grid-gap: 14px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  
-  .grid__list {
-    grid-gap: 16px;
-  }
-}
-
 @media screen and (max-width: 320px) {
-  
   .grid__list {
     grid-gap: 12px;
   }
