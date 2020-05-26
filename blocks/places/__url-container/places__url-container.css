@@ -2,6 +2,13 @@
   align-self: end;
 }
 
+@media screen and (max-width: 500px) {
+  .places__url-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .places__url-container {
     display: none;

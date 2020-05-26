@@ -1,3 +1,20 @@
 @import url(./__list/grid__list.css);
 @import url(./__item/grid__item.css);
 @import url(./__image/grid__image.css);
+
+.grid {
+  margin: 92px auto;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .grid {
+    margin: 64px auto;
+  }
+}
