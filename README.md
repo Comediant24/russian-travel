@@ -9,7 +9,7 @@
 
 ## Путешествие по России - проектная работа по профессии веб-разработчик [Яндекс Практикум](https://praktikum.yandex.ru 'Яндекс Практикум')
 
-Ссылка на проект в gh-pages: **[Путешествие по России](https://comediant24.github.io/sunbox/)**
+Ссылка на проект в gh-pages: **[Путешествие по России](https://comediant24.github.io/russian-travel/)**
 
 ![Watch the video](./public/preview.gif)
 
